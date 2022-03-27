@@ -8,7 +8,7 @@ jobs:
       max-parallel: 30
       fail-fast: false
       matrix:
-        go: [1.1, 1.2]
+        go: [1.1]
         flag: [A, B]
     timeout-minutes: 360
     env:
